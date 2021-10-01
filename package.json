@@ -1,0 +1,19 @@
+{
+  "name": "spaccoin-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build ./src/index.html --no-cache",
+    "start": "parcel ./src/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ethers": "^5.4.7"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
